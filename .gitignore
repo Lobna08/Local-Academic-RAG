@@ -1,0 +1,20 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets / env local
+.env
+
+# Index vectoriel généré (reconstruit via scripts/build_index.py)
+chroma_store/
+
+# Sorties d'éval
+eval/results/
+
+# OS / éditeur
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,23 @@
+id,question,category,source_attendue,page_attendue,valeur_attendue,reject_if,indice,expected_items
+1,Quel est le coefficient du module Machine Learning (P1) ?,jsonl_plan,Plan_d_études_SDIA-2024-2025.pdf,6,2,,Panier ING-4-SDIA-S8-P2 (S8),
+2,Combien d'ECTS vaut le module Data Warehouse : conception et implémentation ?,jsonl_plan,Plan_d_études_SDIA-2024-2025.pdf,5,4,,Panier ING-4-SDIA-S7-P2 (S7). Verite terrain = 4,
+3,Quel est le volume horaire du module Programmation Python ?,jsonl_plan,Plan_d_études_SDIA-2024-2025.pdf,4,"31,5",,"Panier ING-3-S6-P3 (S6). Pas 'Programmation python Data Science avancee' (S9, 42h)",
+4,À quel semestre est enseigné le module Text mining et NLP ?,jsonl_plan,Plan_d_études_SDIA-2024-2025.pdf,7,9ème semestre|S9,,Panier ING-5-SDIA-S9-P3,
+5,Quel est l'email du département SDIA ?,guide_table,Students_Guide.pdf,19,SDIA@mailing.tek-up.de,,Table des contacts p.19,
+6,Quel est l'email pour contacter l'incubateur ?,guide_prose,Students_Guide.pdf,10,incubator@tek-up.de,,"PROSE (section Incubator > Spontaneous Application), PAS la table des contacts",
+7,Quelle mention correspond à une note de 15/20 pour le PFE ?,guide_table,Students_Guide.pdf,7,Good|Bien,pretty good|very good|assez bien|tres bien,"Grille PFE p.7, tranche 14-16 = Good. reject_if ecarte les labels englobants",
+8,Combien de semestres d'échange sont possibles avec l'université CESI ?,guide_table,Students_Guide.pdf,13,2,,"Table universites partenaires p.13, ligne CESI = 2",
+9,Quelle est la moyenne minimale pour valider un panier ?,guide_prose,Students_Guide.pdf,6,08/20|8/20,,Phrase 'A Panier is validated if its average is >= 08/20' p.6,
+10,Quelle est la date limite de paiement des frais de scolarité ?,guide_prose,Students_Guide.pdf,16,31 mai|May 31,,Section 'Payment Deadlines' p.16,
+11,Combien coûtent les frais d'inscription standard ?,guide_prose,Students_Guide.pdf,16,"1 500 TND|1,500 TND",,"Bullet 'Proof of payment of registration fees: 1,500 TND' p.16",
+12,Dans quel délai faut-il justifier une absence à un examen DS ?,guide_prose,Students_Guide.pdf,16,48 heures|48 hours,,Section 'Absence Justification' p.16 : within 48 hours,
+13,Quels sont les horaires d'ouverture de la bibliothèque ?,hors_corpus,AUCUNE,,REFUS,,RIEN dans les documents. Succes = refus,
+14,Quel est le tarif du parking sur le campus ?,hors_corpus,AUCUNE,,REFUS,,RIEN dans les documents. Succes = refus,
+15,Quels modules sont enseignés en semestre 8 pour la spécialité SSIR ?,hors_corpus,AUCUNE,,REFUS,,Piege: corpus = plan SDIA uniquement. Succes = refus,
+16,Combien de stages obligatoires dois-je effectuer pendant mon cursus ?,guide_prose,Students_Guide.pdf,8,3|trois|three,,Section Internships p.8. On teste le COMPTE (3),
+17,Quelle est la durée minimale du stage PFE en entreprise (processus de stage) ?,guide_prose,Students_Guide.pdf,9,16 semaines|16 weeks,,PFE Internship Process p.9 = Minimum of 16 weeks. Question reformulee pour viser la p.9 (anomalie p.7 '15 weeks' documentee au journal),
+18,En quelle année l'incubateur de TEK-UP a-t-il été lancé ?,guide_prose,Students_Guide.pdf,9,2024,,Section Incubator p.9 : launched in June 2024,
+19,Quel est l'email du département SSIR ?,guide_table,Students_Guide.pdf,19,SSIR@mailing.tek-up.de,,Table des contacts p.19,
+20,Quelles sont les universités partenaires pour l'Exchange Semester ?,guide_list,Students_Guide.pdf,13,,,Table Partner Universities p.13 (4 lignes). Item 'Schmalkalden' couvre 'SUAS: Schmalkalden University',Schmalkalden|CESI|INP Bordeaux|INP Lorraine
+21,"Quels sont les modules du panier Développement (S7, spécialité SDIA) ?",guide_list,Plan_d_études_SDIA-2024-2025.pdf,5,,,"JSONL panier ING-4-SDIA-S7-P1 (4 modules). Items raccourcis: 'Symfony' (Framework PHP Symfony), 'n-tiers' (Architecture n-tiers avec .NET)",Spring Boot|Symfony|n-tiers|Méthodologie de gestion de projets
+22,Quels modules composent le panier Sciences fondamentales-2 ?,guide_list,Plan_d_études_SDIA-2024-2025.pdf,4,,,"JSONL panier ING-3-S6-P1 (3 modules, S6 tronc commun). Item 'Probabilités' couvre 'Probabilités, Statistiques et Processus aléatoires'",Probabilités|Théorie des graphes|Théorie des langages

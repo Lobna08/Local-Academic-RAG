@@ -1,0 +1,27 @@
+# Environments and secrets
+venv/
+.venv/
+.env
+
+# Index is mounted at runtime, never baked into the image
+chroma_store/
+
+# Not needed in the image (no ingestion, no eval in the container)
+data/
+eval/
+scripts/
+
+# VCS, caches, editor files
+.git/
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.vscode/
+.idea/
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore
